@@ -20,9 +20,23 @@ background-size: cover; */
 font-family: 'Shadows Into Light', cursive;
 color: khaki;
 font-size: 3em;
+width: 200px;
+text-align: left;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+margin: 0px;
 }
 
+.website {
+margin-top: 17px;
+font-size: 2em; 
+}
 
+.mycontainer {
+    display: flex;
+    flex-direction: row;
+}
 
 .nav-item{
     display:flex;
@@ -39,7 +53,9 @@ font-size: 3em;
 }
 a {
     text-decoration-line: none;
+    color: khaki;
 }
 a:visited {
     text-decoration-line: none;
+    color: khaki;
 }
